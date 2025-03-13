@@ -1,4 +1,4 @@
-# 前端工具箱
+# 工具箱
 
 ## 预览
 [在线体验](https://tools.bocchi.vip/)  
