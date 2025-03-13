@@ -9,3 +9,9 @@
 - ```npm i```
 - ```npm run build```
 - 将生成的<kbd>dist</kbd>目录下的文件放入网站根目录
+
+## 或者直接使用[vercel](https://vercel.com/)部署
+- fork项目
+- 打开vercel，使用GitHub登录
+- Add New
+- 选择fork到仓库的项目即可
