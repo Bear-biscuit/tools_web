@@ -79,6 +79,8 @@ SQLite 默认保存在 `data/nova.db`，表结构在启动时自动创建/迁移
 
 ### 管理后台（`/api/admin/*`）
 
+默认账号 `admin` / `admin`，首次登录会强制修改密码，修改后才能调用除改密外的其它管理接口。
+
 - `POST /login`、`GET /session`、`PUT /password`、`PUT /profile`
 - `GET /dashboard`、`GET /users`、`DELETE /users/<user_id>`
 - `GET /tools`、`PUT /tools/<tool_id>`

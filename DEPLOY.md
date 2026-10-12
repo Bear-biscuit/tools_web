@@ -192,6 +192,8 @@ curl https://your-domain.com/api/health
 
 浏览器打开 `https://your-domain.com/`，确认登录、注册、忘记密码、流程图（tldraw）等正常。
 
+管理后台入口 `https://your-domain.com/admin`（页面不显示入口，需手动访问），默认账号 `admin` / `admin`，首次登录会强制修改密码；修改后才可进入后台的用户管理、工具启停、使用统计、文件柜清理、管理员资料等功能。生产环境务必在首次登录后立即改掉默认密码。
+
 
 ## 常见问题
 
