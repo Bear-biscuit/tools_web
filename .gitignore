@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Frontend
+frontend/.env
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+
+# Backend
+backend/.venv/
+backend/.env
+backend/**/__pycache__/
+backend/**/*.py[cod]
+backend/.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local design analysis
+.impeccable/
+
+# Firecrawl research
+.firecrawl/
+
+# SQLite runtime data（nova.db / -wal / -shm / -journal 等）
+backend/data/*.db*
+
+# File box runtime files
+backend/data/filebox/

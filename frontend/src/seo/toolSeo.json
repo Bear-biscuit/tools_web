@@ -1,0 +1,433 @@
+{
+  "site": {
+    "name": "Bocchi 工具台",
+    "url": "https://your-domain.com",
+    "defaultTitle": "Bocchi 工具台 - 免费在线工具集合",
+    "defaultDescription": "Bocchi 是一个免登录即可使用的在线工具集合，提供 JSON 格式化、时间戳转换、编码解码、图片处理、二维码、Cron、文件快递柜等实用工具。",
+    "defaultKeywords": [
+      "Bocchi",
+      "在线工具",
+      "免费工具",
+      "网页工具",
+      "开发者工具",
+      "JSON",
+      "时间戳",
+      "二维码"
+    ],
+    "image": "https://your-domain.com/bocchi-512.png",
+    "locale": "zh-CN",
+    "imageAlt": "Bocchi 工具台",
+    "imageWidth": 512,
+    "imageHeight": 512
+  },
+  "tools": {
+    "json": {
+      "title": "JSON 格式化在线工具 - 校验、美化与压缩",
+      "description": "免费在线 JSON 格式化、校验、美化和压缩工具，支持错误定位、复制、下载与本地草稿保存。",
+      "keywords": [
+        "JSON格式化",
+        "JSON校验",
+        "JSON压缩",
+        "JSON美化",
+        "在线JSON工具"
+      ]
+    },
+    "timestamp": {
+      "title": "时间戳转换器 - Unix 秒毫秒与日期互转",
+      "description": "在线时间戳转换工具，支持 Unix 秒、毫秒、本地时间、UTC 和 ISO 8601 日期相互转换。",
+      "keywords": [
+        "时间戳转换",
+        "Unix时间戳",
+        "毫秒时间戳",
+        "ISO 8601",
+        "UTC转换"
+      ]
+    },
+    "encoding": {
+      "title": "Base64 / URL 编解码 - 在线 UTF-8 转换",
+      "description": "免费 Base64 与 URL 编解码工具，支持 UTF-8、URL 安全 Base64、URL 组件和完整 URL。",
+      "keywords": [
+        "Base64编码",
+        "Base64解码",
+        "URL编码",
+        "URL解码",
+        "在线编解码"
+      ]
+    },
+    "password": {
+      "title": "密码生成器 - 高强度随机密码在线生成",
+      "description": "在浏览器本地生成高强度随机密码，支持长度、大小写、数字、符号、易混字符过滤和强度评估。",
+      "keywords": [
+        "密码生成器",
+        "随机密码",
+        "强密码",
+        "密码强度",
+        "在线密码工具"
+      ]
+    },
+    "markdown": {
+      "title": "Markdown 编辑器 - 在线预览与 HTML 导出",
+      "description": "在线 Markdown 编辑器，支持 GFM 实时预览、字数统计、复制 HTML 和导出独立网页。",
+      "keywords": [
+        "Markdown编辑器",
+        "Markdown预览",
+        "Markdown转HTML",
+        "在线Markdown"
+      ]
+    },
+    "url": {
+      "title": "URL 解析器 - 在线查看和编辑 Query 参数",
+      "description": "解析 URL 协议、主机、路径、Hash 与 Query 参数，支持在线添加、修改、删除参数并生成新地址。",
+      "keywords": [
+        "URL解析",
+        "Query参数",
+        "URL参数编辑",
+        "网址解析"
+      ]
+    },
+    "diff": {
+      "title": "文本差异对比 - 在线代码和文案 Diff",
+      "description": "免费在线文本差异对比工具，逐行标记新增、删除和未变化内容，适合代码、配置和文案比较。",
+      "keywords": [
+        "文本对比",
+        "代码Diff",
+        "文本Diff",
+        "差异比较"
+      ]
+    },
+    "id": {
+      "title": "UUID 与随机 ID 生成器 - 批量在线生成",
+      "description": "批量生成 UUID v4、短 ID 和十六进制随机标识符，支持前缀、长度和大小写配置。",
+      "keywords": [
+        "UUID生成",
+        "随机ID",
+        "唯一标识符",
+        "UUID v4",
+        "批量ID"
+      ]
+    },
+    "jwt": {
+      "title": "JWT 解析器 - 在线查看 Header 与 Payload",
+      "description": "在线解析 JWT Header、Payload、签名片段和过期时间，所有内容仅在浏览器本地解码。",
+      "keywords": [
+        "JWT解析",
+        "JWT解码",
+        "Token解析",
+        "JWT Payload"
+      ]
+    },
+    "hash": {
+      "title": "哈希计算器 - SHA 文本与文件摘要在线计算",
+      "description": "在线计算文本和文件 SHA-1、SHA-256、SHA-384、SHA-512 摘要，并支持与预期哈希值对比。",
+      "keywords": [
+        "SHA256",
+        "SHA512",
+        "文件哈希",
+        "哈希校验",
+        "在线哈希"
+      ]
+    },
+    "regex": {
+      "title": "正则测试器 - 在线匹配、分组与替换",
+      "description": "在线测试 JavaScript 正则表达式，实时查看匹配结果、分组、flags 和替换预览。",
+      "keywords": [
+        "正则测试",
+        "正则表达式",
+        "Regex测试",
+        "在线正则"
+      ]
+    },
+    "date": {
+      "title": "日期计算器 - 日期差、工作日与日期偏移",
+      "description": "在线计算两个日期之间的天数、周数、工作日和月份，也支持日期加减偏移。",
+      "keywords": [
+        "日期计算",
+        "日期差",
+        "工作日计算",
+        "日期加减"
+      ]
+    },
+    "csv": {
+      "title": "CSV 与 JSON 转换 - 在线表格数据互转",
+      "description": "在线 CSV 和 JSON 相互转换，支持表头、引号、逗号和换行，并可复制或下载结果。",
+      "keywords": [
+        "CSV转JSON",
+        "JSON转CSV",
+        "CSV转换",
+        "表格转JSON"
+      ]
+    },
+    "timezone": {
+      "title": "时区会议规划 - 多城市时间在线换算",
+      "description": "输入一个基准时间，同时查看多个城市的当地时间、日期偏移和会议时间。",
+      "keywords": [
+        "时区转换",
+        "时区会议",
+        "世界时间",
+        "多城市时间"
+      ]
+    },
+    "units": {
+      "title": "单位换算 - 长度重量温度在线转换",
+      "description": "在线换算长度、重量、面积、体积、速度、数据量和温度等单位。",
+      "keywords": [
+        "单位换算",
+        "长度换算",
+        "重量换算",
+        "温度换算",
+        "数据单位"
+      ]
+    },
+    "cleaner": {
+      "title": "文本清理器 - 删除空行、重复行和多余空格",
+      "description": "在线清理文本中的空行、重复行、连续空格、HTML 标签和标点，支持批量格式整理。",
+      "keywords": [
+        "文本清理",
+        "删除空行",
+        "删除重复行",
+        "去除空格",
+        "HTML清理"
+      ]
+    },
+    "watermark": {
+      "title": "图片水印工具 - 批量添加文字水印",
+      "description": "在线批量添加图片文字水印，支持位置、透明度、字号、颜色和 ZIP 批量下载。",
+      "keywords": [
+        "图片水印",
+        "批量加水印",
+        "文字水印",
+        "在线图片工具"
+      ]
+    },
+    "svg": {
+      "title": "SVG 预览与优化 - 在线清理和压缩 SVG",
+      "description": "在线安全预览、清理元数据和压缩 SVG，支持上传 SVG 文件并下载优化结果。",
+      "keywords": [
+        "SVG预览",
+        "SVG优化",
+        "SVG压缩",
+        "SVG清理"
+      ]
+    },
+    "qrscan": {
+      "title": "二维码识别 - 在线图片与摄像头扫码",
+      "description": "从图片或摄像头识别二维码内容，支持复制识别结果，图片识别无需上传服务器。",
+      "keywords": [
+        "二维码识别",
+        "二维码扫描",
+        "图片扫码",
+        "在线扫码"
+      ]
+    },
+    "hokpower": {
+      "title": "王者荣耀最低战力查询 - 国标省市区战力",
+      "description": "查询王者荣耀英雄国标、省级、市级和区级最低战力参考，支持 QQ、微信、安卓和 iOS 多个区服。",
+      "keywords": [
+        "王者荣耀战力查询",
+        "最低战力",
+        "国标战力",
+        "荣耀战力",
+        "省标市标"
+      ]
+    },
+    "color": {
+      "title": "颜色工具 - HEX RGB HSL 与图片取色",
+      "description": "在线颜色转换与配色工具，支持 HEX、RGB、HSL、对比度、配色生成和图片取色。",
+      "keywords": [
+        "颜色转换",
+        "HEX RGB",
+        "HSL",
+        "图片取色",
+        "配色工具"
+      ]
+    },
+    "meme": {
+      "title": "表情包合成 - Emoji 组合在线生成",
+      "description": "在线搜索和组合 Emoji，生成、复制或下载表情包合成图片。",
+      "keywords": [
+        "Emoji合成",
+        "表情包制作",
+        "Emoji Kitchen",
+        "表情包生成"
+      ]
+    },
+    "country": {
+      "title": "国家代码复制 - 国际区号与 ISO 代码查询",
+      "description": "搜索国家和地区，快速复制国际电话区号或 ISO 两位代码。",
+      "keywords": [
+        "国家代码",
+        "国际区号",
+        "ISO代码",
+        "电话区号"
+      ]
+    },
+    "text": {
+      "title": "文字转换 - Unicode 字体样式在线转换",
+      "description": "将普通文字转换为多种 Unicode 字体样式，适合昵称、简介和社交平台文案。",
+      "keywords": [
+        "文字转换",
+        "Unicode字体",
+        "花体字",
+        "字体生成器"
+      ]
+    },
+    "image": {
+      "title": "图像处理 - 在线缩放旋转与格式转换",
+      "description": "浏览器本地处理图片，支持缩放、旋转、翻转以及 PNG、JPG、WebP 格式转换。",
+      "keywords": [
+        "在线图片处理",
+        "图片压缩",
+        "图片格式转换",
+        "图片缩放"
+      ]
+    },
+    "qr": {
+      "title": "二维码生成器 - 在线生成并下载二维码",
+      "description": "在线生成文本和网址二维码，支持尺寸、留白、纠错等级与颜色设置。",
+      "keywords": [
+        "二维码生成",
+        "在线二维码",
+        "QR Code",
+        "二维码制作"
+      ]
+    },
+    "timer": {
+      "title": "在线计时器 - 专注倒计时与系统通知",
+      "description": "免费在线计时器，支持专注、短休、长休、自定义时长和系统通知。",
+      "keywords": [
+        "在线计时器",
+        "倒计时",
+        "番茄钟",
+        "专注计时"
+      ]
+    },
+    "cron": {
+      "title": "Cron 表达式工具 - 在线解析与执行时间预览",
+      "description": "在线构建和解析 Cron 表达式，支持 5、6、7 段格式、时区和未来执行时间预览。",
+      "keywords": [
+        "Cron表达式",
+        "Cron解析",
+        "定时任务",
+        "Cron生成器"
+      ]
+    },
+    "video": {
+      "title": "在线视频播放器 - MP4 HLS YouTube 播放",
+      "description": "在线播放 MP4、WebM、HLS 视频流，并支持 YouTube 与 Vimeo 嵌入链接。",
+      "keywords": [
+        "在线视频播放器",
+        "HLS播放器",
+        "MP4播放",
+        "网页播放器"
+      ]
+    },
+    "filebox": {
+      "title": "文件快递柜 - 在线文本和文件取件码分享",
+      "description": "通过 6 位取件码分享文本和文件，支持有效期、领取次数、本地历史与账户同步。",
+      "keywords": [
+        "文件快递柜",
+        "取件码",
+        "文件分享",
+        "文本分享",
+        "临时文件中转"
+      ]
+    },
+    "mermaid": {
+      "title": "文本转图表 - Mermaid 在线生成流程图与时序图",
+      "description": "使用 Mermaid 语法在线生成流程图、时序图、甘特图和饼图，支持复制与下载 SVG。",
+      "keywords": [
+        "Mermaid",
+        "流程图",
+        "时序图",
+        "文本转图表",
+        "在线绘图"
+      ]
+    },
+    "mindmap": {
+      "title": "思维导图生成器 - Markdown 在线转思维导图",
+      "description": "用 Markdown 大纲在线生成交互式思维导图，支持下载 SVG。",
+      "keywords": [
+        "思维导图",
+        "Markdown",
+        "大纲",
+        "导图生成器",
+        "在线思维导图"
+      ]
+    },
+    "compress": {
+      "title": "图片压缩 - 在线压缩 PNG JPEG WebP",
+      "description": "在浏览器本地压缩图片，支持缩放、质量调节和 WebP/JPEG/PNG 格式转换，无需上传。",
+      "keywords": [
+        "图片压缩",
+        "在线压缩图片",
+        "WebP 压缩",
+        "JPEG 压缩",
+        "PNG 压缩"
+      ]
+    },
+    "codecard": {
+      "title": "代码分享卡片 - 代码转图片在线生成",
+      "description": "将代码生成精美的分享图片，支持多种语言、主题和 PNG 导出。",
+      "keywords": [
+        "代码卡片",
+        "代码转图片",
+        "代码分享图",
+        "Carbon",
+        "代码美化"
+      ]
+    },
+    "whiteboard": {
+      "title": "手绘白板 - Excalidraw 在线白板",
+      "description": "基于 Excalidraw 的手绘风格在线白板，支持图形、文字和连接线。",
+      "keywords": [
+        "手绘白板",
+        "Excalidraw",
+        "在线白板",
+        "绘图工具",
+        "轻量白板"
+      ]
+    },
+    "flowboard": {
+      "title": "在线流程图 - tldraw 白板与流程图",
+      "description": "基于 tldraw 的在线白板与流程图编辑器，支持图形、文字、箭头和连接线。",
+      "keywords": [
+        "在线流程图",
+        "tldraw",
+        "白板",
+        "流程图工具",
+        "绘图"
+      ]
+    },
+    "cyberchef": {
+      "title": "CyberChef 编解码 - 在线加密编码数据分析",
+      "description": "集成官方 CyberChef，支持编码解码、加密解密、压缩和数据分析。",
+      "keywords": [
+        "CyberChef",
+        "编码解码",
+        "加密解密",
+        "数据分析",
+        "在线工具"
+      ]
+    }
+  },
+  "pages": {
+    "login": {
+      "title": "登录 - Bocchi 工具台",
+      "description": "登录 Bocchi 工具台，同步收藏和偏好设置。",
+      "keywords": [
+        "Bocchi登录",
+        "账户同步",
+        "收藏工具"
+      ]
+    },
+    "register": {
+      "title": "注册 - Bocchi 工具台",
+      "description": "使用邮箱注册 Bocchi 工具台账户，同步收藏和偏好设置。",
+      "keywords": [
+        "Bocchi注册",
+        "邮箱注册",
+        "工具收藏同步"
+      ]
+    }
+  }
+}
